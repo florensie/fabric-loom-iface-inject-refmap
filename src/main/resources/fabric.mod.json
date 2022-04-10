@@ -34,5 +34,13 @@
   },
   "suggests": {
     "another-mod": "*"
+  },
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_1429": [
+        "bogus (doesn't have to be valid to fail)",
+        "does have to be the same class as the mixin target"
+      ]
+    }
   }
 }
